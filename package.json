@@ -1,0 +1,27 @@
+{
+  "name": "ps-typescript-from-scratch-cli-executor",
+  "version": "1.0.0",
+  "description": "project for learning course \"Typescript from scratch\"",
+  "exports": "./index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karp1k/ps-typescript-from-scratch-cli-executor.git"
+  },
+  "author": "Karpov Anton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karp1k/ps-typescript-from-scratch-cli-executor/issues"
+  },
+  "homepage": "https://github.com/karp1k/ps-typescript-from-scratch-cli-executor#readme",
+  "dependencies": {
+    "@types/inquirer": "^9.0.7",
+    "inquirer": "^9.2.13"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}
