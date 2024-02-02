@@ -18,10 +18,13 @@
   },
   "homepage": "https://github.com/karp1k/ps-typescript-from-scratch-cli-executor#readme",
   "dependencies": {
-    "@types/inquirer": "^9.0.7",
     "inquirer": "^9.2.13"
   },
   "engines": {
     "node": ">=16"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^20.11.15"
   }
 }

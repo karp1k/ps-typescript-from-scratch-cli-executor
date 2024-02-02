@@ -1,9 +1,10 @@
-import {PromptService} from "./core/prompt/prompt.service.js";
+import {FfmpegCommandExecutor} from "./core/executor/ffmpeg.command.executor.js";
+import {ConsoleLogger} from "./out/console-logger.js";
+import {DirCommandExecutor} from "./core/executor/dir.command.executor.js";
 
 export class App {
     async run() {
-        const service = new PromptService();
-        const res = await service.input<number>("Number", "number");
+        new DirCommandExecutor(ConsoleLogger.getInstance()).execute();
     }
 }
 
